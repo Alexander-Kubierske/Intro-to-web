@@ -1,0 +1,46 @@
+
+/* this is the style sheet for resume4.html
+
+colours
+background main - #CCDBDC
+#007EA7
+#40A6BF
+#80CED7
+#EECB9B
+#C6652A*/
+
+image {
+    position: fixed;
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #007EA7;
+    color: #80CED7;
+}
+
+.heading {
+    color: #007EA7;
+    background-color: #80CED7;
+}
+
+body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #CCDBDC;    
+}
+
+.subheading {
+    color: #40A6BF;
+}
+
+a:link {
+    color: #C6652A;
+    font-weight: bolder;
+}
+a:visited {
+    color:#EBB05E;
+}
+a:hover {
+    color: #007EA7;
+    font-weight: bold;
+}

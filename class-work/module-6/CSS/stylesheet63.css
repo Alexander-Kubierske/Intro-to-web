@@ -1,0 +1,31 @@
+/* external styling is useful for formatting multiple pages on the same site. */
+
+h1 {color: red; 
+    background-color: blue;
+    font-family: arial, helvetica, sans-serif; /* this is the font styles that the html has to choose from if one is not available it will move to the next and so forth */
+}
+
+h2 {color: green;}
+
+h3, h4 {color: orange; 
+    font: 20rem; 
+    background-color: gray;
+}
+
+ /* px (such as font size: 12px) is the unit for pixels. 
+
+rem stands for 'root em' and is a unit of measurement that is relative to the font size of the root element, usually the <html> element. 
+When you specify a font size for the root element, all other font sizes specified in rem units will be calculated relative to that font size. 
+For example, if you set the font size of the root element to 16 pixels, and you want to set the font size of a heading to 1.5 times the size of the base font size, 
+you could use the following code: html { font-size: 16px; } h1 { font-size: 1.5rem; }
+
+em (such as font size: 2em) is the unit for the calculated size of a font. For example, 2emis two times the current font size.
+
+pt (such as font size: 12pt) is the unit for points, for measurements typically in printed media.
+
+% (such as width: 80%) is the unit that represents percentages.
+ 
+Other units include pc (picas), cm (centimetres), mm (millimetres), and in (inches).
+
+ You do not need to state a unit when a value is zero. For example, if you wanted to specify no border, it would be border: 0.*/
+ 

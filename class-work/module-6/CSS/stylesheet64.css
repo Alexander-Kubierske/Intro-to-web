@@ -1,0 +1,13 @@
+p.intro {
+    color: red;
+    font-weight: bold;
+  }
+
+/* this is a class ID and it affects multiple elements without the p before .intro this would affect each class ID 'intro' however it now will only affect those in <p>*/
+
+  #top {
+    background-color: #ccc;
+    padding: 20px;
+  }
+  
+  /* this is a ID and it affects one unique element */
