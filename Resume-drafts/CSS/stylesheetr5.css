@@ -22,9 +22,15 @@ img {
 }
 
 header {
+    color: #40A6BF;
+    margin-left: 15%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+h1 {
     font-family: 'Times New Roman', Times, serif;
     color: #C6652A;
-    margin-left: 15%;
 }
 
 .heading {
@@ -47,10 +53,13 @@ body {
 
 .text {
     margin-left: 17%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
 
 }
 
-.hyperlinks  /* not yet fleshed out requires each one to be fixed individually code broken until then */
+.hyperlinks  /* not yet fleshed out requires each one to be fixed individually code broken until then (add '{' to fix) */
     position: fixed;
     color: #C6652A;
     font-weight: bolder;
