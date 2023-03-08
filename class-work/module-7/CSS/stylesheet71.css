@@ -1,0 +1,17 @@
+h2 {
+    font-size: 40px;
+    background-color: #ccc;
+    margin: 20%; /* is transparent and is everything outside the box */
+    padding: 10%; /* padding is the transparent layer around the content */
+  }
+  
+  h2 {
+    border-style: dashed;  /* can be solid, dotted or dashed line */
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: red;
+    border-radius: 10px 20px 30px 40px;    
+  }
+
+ 

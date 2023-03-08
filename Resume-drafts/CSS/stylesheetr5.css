@@ -1,0 +1,70 @@
+
+/* this is the style sheet for resume4.html
+
+colours
+background main - #ffffff
+border box - #007EA7
+Sub headings - #40A6BF
+extra info - #80CED7
+Links (used) - #EECB9B
+Main Headings - #C6652A*/
+
+img {
+    position: fixed;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 120px;
+    height: 120px;
+    top: 0%;
+    border: #ffffff00;
+    border-radius: 50%;
+
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    color: #C6652A;
+    margin-left: 15%;
+}
+
+.heading {
+    color: #40A6BF;
+    background-color: #007EA7;
+    margin-left: 15%;
+    padding-left: 2%;
+    font-size: x-large;
+}
+
+body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #ffffff;    
+}
+
+.subheading {
+    color: #40A6BF;
+    margin-left: 17%;
+}
+
+.text {
+    margin-left: 17%;
+
+}
+
+.hyperlinks  /* not yet fleshed out requires each one to be fixed individually code broken until then */
+    position: fixed;
+    color: #C6652A;
+    font-weight: bolder;
+}
+
+
+a:link {
+    color: #C6652A;
+    font-weight: bolder;
+}
+a:visited {
+    color:#EBB05E;
+}
+a:hover {
+    color: #007EA7;
+    font-weight: bold;
+}
