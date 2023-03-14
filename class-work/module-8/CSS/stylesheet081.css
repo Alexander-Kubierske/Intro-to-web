@@ -1,0 +1,84 @@
+/* here we will look at 5 types of positioning: static, relative, absolute, fixed and sticky. 
+For this example to work best zoom in 500% on your browser */
+
+/* static: this is the default and renders everything as it is written in the code order */
+    h1 {
+        position: static;
+        border-style: solid;
+        border-width: 3px;
+        border-left-width: 10px;
+        border-right-width: 10px;
+        border-color: black;
+        background-color: red;
+        font-size: x-large;
+        }
+
+/* relative: sets the position to that of static but can be offset with "top, right, bottom,left" */
+    h2 {
+        position: relative;
+        /* here the position is as it appears in the code directly under h1 */
+        left: 10px;
+        /* but here after adding left: 10px; it will move the text to the right by 10 pixels from its static position */
+
+        border-style: solid;
+        border-width: 3px;
+        border-left-width: 10px;
+        border-right-width: 10px;
+        border-color: black;
+        background-color: blue;
+        font-size: x-large;
+        }
+
+/* absolute: sets the position to given coordinates and ignores any elements that might be at those coordinates */
+    h3 {
+        position: absolute;
+        /* the code is positioned according to the coordinate code below and not positioned after the element which preceded it */
+        left: 10px;
+        top: 10px;
+        /* This allows the text to be placed directly 10px from the left and 10px from the top ignoring any other elements (ie. h1 & h2) */
+
+        border-style: solid;
+        border-width: 3px;
+        border-left-width: 10px;
+        border-right-width: 10px;
+        border-color: black;
+        background-color: green;
+        font-size: x-large;
+        }
+
+/* fixed: sets the position like absolute however it will stay fixed at the given coordinates relative to the viewport* thus staying fixed even if the page scrolls in any direction */
+    h4 {
+        position: fixed;
+        /* like absolute this is positioned according to the offset code below rather than the elements around it */
+        left: 20px;
+        bottom: 5px;
+
+        border-style: solid;
+        border-width: 3px;
+        border-left-width: 10px;
+        border-right-width: 10px;
+        border-color: black;
+        background-color: orange;
+        font-size: x-large;
+        }
+
+/* sticky: behaves like fixed where it moves with the viewport 
+but has a static position in the page and will then move like a fixed element 
+once the viewport scrolls past that position  */
+    h5 {
+        position: sticky;
+        top: 1px;
+        /* giving any offset modifiers will tell the element to move with the viewport with an offset from the boarder= to the value given */
+
+        border-style: solid;
+        border-width: 3px;
+        border-left-width: 10px;
+        border-right-width: 10px;
+        border-color: black;
+        background-color: palevioletred;
+        font-size: x-large;
+        }
+
+        /* 
+        *Viewport: is what the user sees of a given page when it is loaded.
+        */

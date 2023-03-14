@@ -1,5 +1,5 @@
 
-/* this is the style sheet for resume5.html
+/* this is the style sheet for resume6.html
 
 colours
 background main - #ffffff
@@ -20,6 +20,9 @@ img {
     border-radius: 50%;
 
 }
+
+
+/* text stylizing */
 
 header {
     color: #40A6BF;
@@ -59,12 +62,19 @@ body {
 
 }
 
-.hyperlinks  /* not yet fleshed out requires each one to be fixed individually code broken until then (add '{' to fix) */
+/* links and navigation */
+
+.hyperlinks {
     position: fixed;
     color: #C6652A;
     font-weight: bolder;
 }
 
+.btt {
+    position:fixed;
+    bottom: 1%;
+    right: 3%;
+}
 
 a:link {
     color: #C6652A;

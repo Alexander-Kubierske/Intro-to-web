@@ -1,0 +1,39 @@
+/* display allows you to order and modify elements with simple commands rather than giving that element those properties individually*/
+
+#container {
+    display: flex;
+    /* flex simply gives each section the same space to each container and puts them in a row */
+}
+
+#box1 {
+    font-size: xx-small;
+    border: 1px solid black;
+    padding: 10px;
+    
+    /* you can modify the space allocated to each element relative to the other elements by adding a number after the command 'flex:' */
+    flex: 1;
+
+}
+
+#box2 {
+    font-size: xx-small;
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+}
+
+#box3 {
+    font-size: xx-small;
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+}
+
+.box { 
+    /* 'justify-content:' allows you to change how the content is displayed
+    some examples: flex-start, flex-end, center, space-between, space-around
+    */
+    display: flex;
+    justify-content: space-between;
+}
+
