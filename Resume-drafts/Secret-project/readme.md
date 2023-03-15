@@ -1,0 +1,1 @@
+this file is dedicated to creating a new cleaner version of my resume's according to a new wireframe as my final project for intro to web.
