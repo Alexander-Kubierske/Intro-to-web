@@ -120,3 +120,13 @@ a:hover {
     color: #007EA7;
     font-weight: bold;
 }
+
+/*style for the form */
+
+input:invalid {
+    border: 2px dashed red;
+}
+
+input:invalid:required {
+    background-image: linear-gradient(to bottom, lightgreen, red) ;
+}

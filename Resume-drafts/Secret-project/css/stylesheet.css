@@ -1,0 +1,24 @@
+/* colour palette:
+
+text- #E0E0CE (white)
+background- #333333 (dark grey)
+headings- #34C242 (Neon Green)
+sub headings- #AD343E (dull red)
+links- #F2AF29 (yellow)
+*/
+
+body{
+    display: flex;
+    background-color: #333333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #E0E0CE;
+}
+
+.navbar {
+    color: #34C242;
+}
+
+/* links */
+
+
+
