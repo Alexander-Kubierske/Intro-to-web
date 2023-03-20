@@ -105,21 +105,23 @@
                 <a href="#top">back to top</a>
             </nav>
 
-            <form action="https://formsubmit.co/alexanderkubierske@gmail.com" method="POST">
-                <p>Name (required):</p>
-                <input type="text" name="name" required min="4" max="16">
-                <p>Email(required):</p>
-                <input type="email" name="email" required>
+            <form action="https://formsubmit.co/6463e509bb925f2418dac6eef7e13b19" method="POST">
+                <p>Name:</p>
+                <input type="text" name="name" placeholder="Name (required)" required min="4" max="16">
+                <p>Email:</p>
+                <input type="email" name="email" placeholder="Email Address (required)" required>
 
                 <p>Please select the reason for your contact (required):</p>
                 <select name="contactReason" id="contactReason" required>
+                    <input type="hidden" name="_subject" value="New submission!">
                     <option value="">--Please choose an option--</option>
                     <option value="Enquiry">Enquiry</option>
                     <option value="Feedback">Feedback</option>
                 </select>
-                <P>Please put any extra information or context below.</P>
-                <input type="textarea">
+                <input type="textarea" placeholder="Please put any further information here">
                 <button type="submit">Send</button>
+                <!-- <input type="hidden" name="_next" value=""> this needs to be added once the page is hosted -->
+                <input type="text" name="_honey" style="display:none">
            </form>
 
     </main>
