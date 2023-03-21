@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITW_105</title>
+    <link rel="stylesheet" href="CSS/stylesheet_105.css">
+</head>
+<body>
+    <H1>Registration Form</H1>
+    <form action="https://formsubmit.co/6463e509bb925f2418dac6eef7e13b19" method="POST">
+
+        <section id="s1">
+
+            <label for="userID">User ID:</label>
+                <input type="text" name="userID" id="userID" placeholder="required, 5-12 characters" required minlength="5" maxlength="12" class="input">
+
+        </section>
+
+        <section id="s2">
+
+            <label for="password">password:</label>
+                <input type="password" name="password" id="password" placeholder="required, 7-12 characters" required minlength="7" maxlength="12" class="input">
+
+        </section>
+
+        <section id="s3">
+
+            <label for="name">name:</label>
+                <input type="text" name="Name" id="name" placeholder="required" required patter="[A-Za-z]" class="input">
+                    <!-- for some reason this pattern does not accept any text regardless of no. or alphabetical -->
+
+        </section>
+
+        <section id="s4">
+            
+            <label for="address">Address:</label>
+                <input type="text" name="Address" id="address" placeholder="optional" class="input">
+
+        </section>
+
+        <section id="s5">
+
+            <label for="country">Country:</label>
+                <select name="Country" id="country" required class="input">
+                    <option value="">--Please choose an option--</option>
+                    <option value="Enquiry">South Africa</option>
+                    <option value="Feedback">External</option>
+                </select>
+
+        </section>
+
+        <section id="s6">
+
+            <label for="zip">User ID:</label>
+                <input type="number" name="Zip" id="zip" placeholder="required" class="input">
+
+        </section>
+
+        <section id="s7">
+
+            <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="required" class="input">
+
+        </section>
+
+        <section id="s8">
+
+            <label for="sex">Sex:</label>
+                <ol class="input">
+                    <input type="radio" name="sex" id="male" value="Male" required>
+                        <label for="male">male</label>
+                    <input type="radio" name="sex" id="female" value="Female" required>
+                        <label for="female">Female</label>
+                    <input type="radio" name="sex" id="N/A" value="N/A" required>
+                        <label for="N/A">N/A</label>
+                </ol>
+
+        </section>
+
+        <section id="s9">
+
+            <label for="lang">Preferred Language:</label>
+                <ol class="input">
+                    <input type="radio" name="lang" id="english" value="English">
+                        <label for="english">English</label>
+                    <input type="radio" name="lang" id="otherLang" value="otherLang">
+                        <label for="otherLang">Non-English</label>
+                </ol>
+
+        </section>
+
+        <section id="s10">
+
+            <label for="about">About:</label>
+                <textarea name="about" id="about" cols="40" rows="5" class="input" placeholder="Hi I am..."></textarea>
+        
+        </section>
+
+        <section>
+
+            <button type="submit">submit</button>
+
+        </section>
+
+   </form>
+    
+</body>
+</html>

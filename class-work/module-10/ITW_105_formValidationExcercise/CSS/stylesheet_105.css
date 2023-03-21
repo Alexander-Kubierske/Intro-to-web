@@ -1,0 +1,126 @@
+input:invalid {
+    border: 2x dotted red;
+}
+
+input::placeholder {
+    color: orangered
+}
+
+textarea::placeholder {
+    color: orangered
+}
+
+/* flex containers */
+body {
+    /* spacing: */
+        background-color red;
+            /* colour disabled use ':' to reenable */
+        padding-left: 3%;
+
+    /* flex: */
+        display: flex;
+        flex-direction: column;
+}
+
+form {
+    /* spacing */
+        background-color blue;
+            /* colour disabled use ':' to reenable */
+        width: max-content;
+        height: fit-content;
+    
+    /* flex: */
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        column-gap: 2px;    
+}
+
+/* section specific */
+
+#s1 {
+    /* user id */
+    display: flex;
+    column-gap: 3px;
+    align-content: center;
+}
+
+#s2 {
+    /* password */
+    display: flex;
+    column-gap: 3px;
+    align-content: center;
+}
+
+#s3 {
+    /* name */
+    display: flex;
+    column-gap: 3px;
+    align-content: center;
+}
+
+#s4 {
+    /* address */
+    display: flex;
+    column-gap: 3px;
+    align-content: center;
+}
+
+#s5 {
+    /* country */
+    display: flex;
+    column-gap: 3px;
+    align-content: center;
+}
+
+#s6 {
+    /* zip */
+    display: flex;
+    column-gap: 3px;
+    align-content: center;
+}
+
+#s7 {
+    /* email */
+    display: flex;
+    column-gap: 3px;
+    align-content: center;
+}
+
+#s8 {
+    /* sex */
+    display: flex;
+    column-gap: 3px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#s9 {
+    /* language */
+    display: flex;
+    column-gap: 3px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#s10 {
+    /* about */
+    display: flex;
+    column-gap: 3px;
+    align-content: center;
+}
+
+label {
+    /* flex */
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.input {
+    /* flex */
+    display: flex;
+    flex: 5;
+    justify-content: flex-start;
+}
