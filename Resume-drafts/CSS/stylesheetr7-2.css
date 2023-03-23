@@ -1,0 +1,138 @@
+
+/* this is the style sheet for resume6.html
+
+colours
+background main - #ffffff
+border box - #007EA7
+Sub headings - #40A6BF
+extra info - #80CED7
+Links (used) - #EECB9B
+Main Headings - #C6652A
+
+please note in this version all the background colours without hex codes are for testing purposes and thus disabled. 
+To reenable please provide the missing ':' after he line 'background-color'.
+*/
+
+
+.column1 {
+    position: fixed;
+    display: flex;
+    flex: 7%;
+    flex-direction: column;
+    background-color red;
+}
+
+.column2 {
+    margin-left: 7%;
+    background-color blue;
+    display: flex;
+    flex: 93%;
+    flex-direction: column;
+}
+
+#logo {
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 120px;
+    height: 120px;
+    top: 0%;
+    border: #ffffff00;
+    border-radius: 50%;
+}
+
+/* text stylizing */
+
+header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    color: #40A6BF;
+    margin-top: 2%;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #C6652A;
+}
+
+#hb1 {
+
+}
+
+#hb2 {
+
+}
+
+.heading {
+    color: #40A6BF;
+    background-color: #007EA7;
+    padding-left: 2%;
+    font-size: x-large;
+}
+
+body {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;    
+}
+
+main {
+    position: relative;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.subheading {
+    color: #40A6BF;
+}
+
+.box1 {
+    flex: 1;
+    background-color green;
+}
+
+.box2 {
+    flex: 1;
+    background-color orange;
+}
+
+.text {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+
+}
+
+/* links and navigation */
+
+.hyperlinks {
+    color: #C6652A;
+    font-weight: bolder;
+}
+
+.btt {
+    position:fixed;
+    bottom: 1%;
+    right: 3%;
+}
+
+a:link {
+    color: #C6652A;
+    font-weight: bolder;
+}
+a:visited {
+    color:#EBB05E;
+}
+a:hover {
+    color: #007EA7;
+    font-weight: bold;
+}
+
+/*style for the form */
+
+input:invalid {
+    border: 2px dashed red;
+}

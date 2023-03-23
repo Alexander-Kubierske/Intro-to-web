@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alexander Kubierske Resume</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheetr7-2.css">
+  </head>
+  <body>
+
+    <main class="column2"> <!-- dedicated to the core content of this page -->
+
+        <header>
+
+            <ol id="hb1">
+                <h1>Alexander Kubierske</h1> <!-- everything in the initial 'title element' -->
+                    <p class="title">So you are probably wandering how I got here.</p>
+                    <p class="title">Well it's been an interesting ride:</p>
+
+                <nav class="hyperlinks"> <!-- the navigation bar (hyperlinks to headings) -->
+                    <ul><a href="#education">Education</a></ul>
+                    <ul><a href="#experience">Experience</a></ul>
+                    <ul><a href="#skills">Skills</a></ul>
+                    <ul><a href="#links">Links</a></ul>
+                </nav>  
+            </ol>
+
+            <ol id="hb2">
+                <picture>
+                    <source media="(max-width: 450px)" width="210px" srcset="images/pfSmall.jpg"> <!-- for mobile -->
+                    <source media="(max-width: 1000px)" width="360px" srcset="images/pfMedium.jpg"> <!-- for tablet -->
+                    <img src="images/pfLarge.jpg" width="480px" height="auto" alt="Profile Photo"> <!-- for Desktop -->
+                </picture>
+            </ol>
+
+        </header>
+
+        <section id="education" > <!-- h2 section dedicated to education class=heading is a style for each section heading -->
+            <h2 class="heading">Education</h2>
+            <ul>
+
+            <article class="container">
+                <ol class="box1">
+                    <div>St Albans College</div>
+                    <div>Pretoria</div>
+                    <div>2012-2016</div>
+                </ol>
+                <ol class="box2"><!-- class=subheading is dedicated to a heading under each section heading -->
+                    <div class="subheading">Senior Certificate</div>
+                    <div>Graduating with Academic half-colours</div>
+                </ol>
+            </article>
+
+            <article class="container">
+                <ol class="box1">
+                    <div>The University of Pretoria</div>
+                    <div>Pretoria</div>
+                    <div>2018-2020</div>
+                </ol>
+                <ol class="box2">
+                    <div class="subheading">Bachelor of Arts in Languages</div>
+                    <div>Majoring in both Latin and German with 1 year in English and 2 in French</div>
+                </ol>
+            </article>
+
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h3 class="heading">Experience</h3>
+            <ul class="container">
+
+                <ol class="box1">
+                    <div class="subheading">Job 1</div>
+                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                </ol>
+
+                <ol class="box2">
+                    <div class="subheading">Job 2</div>
+                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                </ol>
+                
+                </ul>
+        </section>
+
+        <section id="skills">
+            <h4 class="heading">Skills</h4>
+            <ul class="container"> 
+
+                <ol class="box1">
+                    <div class="subheading">Management</div>
+                        <ol class="text">
+                            <ldiv>Time Management</div>
+                            <ldiv>Stock and itemization planning</div>
+                        </ol> 
+                </ol>
+
+                <ol class="box2">
+                    <div class="subheading">Writing</div>
+                        <ol class="text">
+                            <ldiv>Script writing</div>
+                            <ldiv>Creative writing award winner</div>
+                        </ol> 
+                </ol>
+                
+            </ul>
+        </section>
+
+        <footer> <!-- dedicated to external links and copyright as well as contact details -->
+            <h5 id="links" class="heading">Where to find me</h5>
+             <a href="https://www.youtube.com/channel/UC5uESDZNqtwvcjkAdeonKog">Youtube</a></footer>
+        
+            
+             <nav class="btt">
+                <a href="#top">back to top</a>
+            </nav>
+
+            <form action="https://formsubmit.co/6463e509bb925f2418dac6eef7e13b19" method="POST">
+                <p>Name:</p>
+                <input type="text" name="name" placeholder="Name (required)" required min="4" max="16">
+                <p>Email:</p>
+                <input type="email" name="email" placeholder="Email Address (required)" required>
+
+                <p>Please select the reason for your contact (required):</p>
+                <select name="_subject" id="contactReason" required _subject>
+                    <option value="">--Please choose an option--</option>
+                    <option value="Enquiry">Enquiry</option>
+                    <option value="Feedback">Feedback</option>
+                </select>
+                <input type="textarea" placeholder="Please put any further information here">
+                <button type="submit">Send</button>
+                <!-- <input type="hidden" name="_next" value=""> this needs to be added once the page is hosted -->
+                <input type="text" name="_honey" style="display:none">
+           </form>
+
+    </main>
+
+  </body>
+</html>
