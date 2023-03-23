@@ -46,13 +46,20 @@ header {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+    font-size: large;
     color: #40A6BF;
     margin-top: 2%;
+    background: #ffffff url(https://github.com/Alexander-Kubierske/Intro-to-web/blob/main/Resume-drafts/images/background.png?raw=true);
+}
+
+.title {
+    background-color: rgba(0,0,0,.3);
 }
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
     color: #C6652A;
+    background-color: rgba(0,0,0,.23);
 }
 
 #hb1 {
@@ -111,6 +118,7 @@ main {
 .hyperlinks {
     color: #C6652A;
     font-weight: bolder;
+    background-color: rgba(0,0,0,.3);
 }
 
 .btt {
