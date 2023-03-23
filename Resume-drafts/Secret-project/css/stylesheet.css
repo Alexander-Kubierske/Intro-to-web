@@ -8,17 +8,74 @@ links- #F2AF29 (yellow)
 */
 
 body{
-    display: flex;
     background-color: #333333;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.links:hover {
     color: #E0E0CE;
 }
 
+/* this is our display for Desktop */
+@media (min-width: 1000px) {
 .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: -webkit-sticky;
+    position: sticky;
+
+    padding: 0% 20px;
+
+    font-size: x-large;
+    background-color: red; 
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    top: 0%;
+    border: #ffffff00;
+    border-radius: 50%;
+}
+
+.links {
+    display: flex;
     color: #34C242;
 }
 
-/* links */
+.links a {
+    padding: 10px;
+}
+}
 
+@media (max-width: 1000px) {
+    .navbar {
+        display: none;
+    }
+    
+}
 
+/* this is our display for mobile and is the standard */
+@media (min-width: 600px) {
+    .mobile-nav {
+        display: none;
+    }
+}
 
+.mobile-nav {
+    
+    display: flex;
+    
+    position: sticky;
+    right: 0;
+
+    height: 60px;
+    width: auto;
+
+    background-color: blue;
+    color: #34C242;
+  }
+
+ 
