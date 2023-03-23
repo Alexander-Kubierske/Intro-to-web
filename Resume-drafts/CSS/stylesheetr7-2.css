@@ -50,6 +50,8 @@ header {
     color: #40A6BF;
     margin-top: 2%;
     background: #ffffff url(https://github.com/Alexander-Kubierske/Intro-to-web/blob/main/Resume-drafts/images/background.png?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .title {
