@@ -1,0 +1,549 @@
+/* colour palette:
+
+text- #E0E0CE (white)
+background- #333333 (dark grey)
+headings- #34C242 (Neon Green)
+sub headings- #AD343E (dull red)
+links- #F2AF29 (yellow)
+*/
+
+body{
+    background-color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.links:hover {
+    color: #E0E0CE;
+}
+
+/* ===================================================================this is our display for Desktop============================================================================= */
+/* +++mobile+++ */
+/* +++tablet+++ */
+.navbar {
+    display: none;
+}
+
+/* +++desktop+++ */
+@media (min-width: 769px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0%;
+    
+        padding: 0% 20px;
+    
+        font-size: x-large;
+        background-color: red; 
+    }
+    
+    .logo {
+        width: 90px;
+        align-items: flex-start;
+        top: 2vw;
+        border: #ffffff00;
+        border-radius: 50%;
+    }
+    
+    .links {
+        display: flex;
+        color: #34C242;
+    }
+    
+    .links a {
+        padding: 10px;
+    }   
+
+    .nav_open {
+        display: none;
+    }
+    
+    .nav_item:hover .nav_open {
+        max-width: min-content;
+        background: #34C242;
+        padding: 2%;
+        display: flex;
+        flex-flow: nowrap column;
+        position: fixed;
+        top: 2vw;
+        right: 1vw;
+    }
+    }
+
+/*==============================================================this is our display for mobile and tablet:================================================================*/
+
+/* +++mobile+++ */
+.mobile-nav {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    
+
+    position: sticky;
+    top: 0;
+
+
+    background-color: blue;
+    color: #34C242;
+    font-size: 3vw;
+  }
+
+/* +++tablet+++ */
+@media (min-width: 426px) {
+    .mobile-nav{
+        font-size: 4vw;
+    }
+}
+
+/* +++Desktop+++ */
+@media (min-width: 769px) {
+
+    .mobile-nav {
+        display: none;
+    }
+}
+
+/*============================================================== Main: ==============================================================*/
+
+main {
+    
+}
+
+h3 {
+    color: aqua;
+}
+
+h4 {
+    color: #34C242;
+}
+/*============================================================== Bio: ==============================================================*/
+/* +++mobile+++ */
+#bio {
+    display: flex;
+    flex-flow: nowrap column;
+    
+    padding: 2vw;
+    color: #E0E0CE;
+}
+
+#bio_pic {
+    align-self: center;
+}
+
+/* +++tablet+++ */
+@media (min-width: 426px) {
+
+    #bio {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: wrap row;
+        padding: 2vw;
+
+        font-size: 2.5vw;
+        color: #E0E0CE;
+    }
+}    
+
+/* +++Desktop+++ */
+@media (min-width: 769px) {
+    #bio {
+        display: flex;
+        flex-flow: nowrap row;
+        justify-content: center;
+        /* background: ; */
+    }
+
+    #bio_pic {
+        align-self: flex-start;
+        padding: 5px;
+    }
+
+    #bio_info {
+        align-items: center;
+        padding: 2vw;
+        color: #E0E0CE;
+    }
+}
+
+/*============================================================== Education: ==============================================================*/
+/* +++mobile+++ */
+#group {
+    display: flex;
+    flex-flow: nowrap column;
+    padding: 10vw;
+}
+
+#education {
+    /* child */
+    flex: 1;
+    /* parent */
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: flex-start;
+}
+
+.eduparent {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 4vw;
+    color: #272222;
+}
+
+.eduhead {
+    display: flex;
+    flex-flow: nowrap row;
+}
+
+.edudate  {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #4F7AF0;
+    max-width: fit-content;
+    padding: 5px;
+    font-size: 2.6vw;
+}
+
+.eduplace {
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 2.6vw;
+}
+
+.edutitle {
+    font-weight: bold;
+    font-size: 4.4vw;
+    padding: 5px;
+    color: black;
+}
+
+.edudesc {
+    font-size: 2.6vw;
+}
+
+/* +++tablet+++ */
+@media (min-width: 426px) {
+    .edudate  {
+        font-size: 1.3vw;
+    }
+
+    .eduplace {
+        font-size: 1.3vw;
+    }
+
+    .edutitle {
+        font-size: 2.2vw;
+    }
+
+    .edudesc {
+        font-size: 1.3vw;
+    }
+}
+
+/* +++Desktop+++ */
+@media (min-width: 769px) {
+    .edudate  {
+        font-size: 1.3vw;
+    }
+
+    .eduplace {
+        font-size: 1.3vw;
+    }
+
+    .edutitle {
+        font-size: 2.2vw;
+    }
+
+    .edudesc {
+        font-size: 1.3vw;
+    }
+}
+/*============================================================== Experience: ==============================================================*/
+/* +++mobile+++ */
+#experience {
+    /* child */
+    flex: 1;
+    /* parent */
+    display: flex;
+    flex-flow: nowrap column;
+}
+
+#job {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 4vw;
+    color: #272222;
+}
+
+.jhead {
+    display: flex;
+    flex-flow: nowrap row;
+}
+
+.jdate  {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #4F7AF0;
+    max-width: fit-content;
+    padding: 5px;
+    font-size: 2.6vw;
+}
+
+.jplace {
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 2.6vw;
+}
+
+.jtitle {
+    font-weight: bold;
+    font-size: 4.8vw;
+    padding: 5px;
+    color: black;
+}
+
+.jdesc {
+    font-size: 2.6vw;
+}
+
+/* +++tablet+++ */
+@media (min-width: 426px) {
+    #group {
+        flex-flow: nowrap row;
+        align-items: flex-start;
+    } 
+    .jdate  {
+        font-size: 1.3vw;
+    }
+
+    .jplace {
+        font-size: 1.3vw;
+    }
+
+    .jtitle {
+        font-size: 2.2vw;
+    }
+
+    .jdesc {
+        font-size: 1.3vw;
+    }
+}
+
+/* +++Desktop+++ */
+@media (min-width: 769px) {
+    #group {
+        flex-flow: nowrap row;
+        align-items: flex-start;
+    }
+    .jdate  {
+        font-size: 1.3vw;
+    }
+    
+    .jplace {
+        font-size: 1.3vw;
+    }
+    
+    .jtitle {
+        font-size: 2.2vw;
+    }
+    
+    .jdesc {
+        font-size: 1.3vw;
+    }
+}
+
+/*============================================================== Portfolio ==============================================================*/
+
+/* +++mobile+++ */
+
+#portfolio {
+    display: flex;
+    flex-flow: nowrap column;
+}
+
+.portfolio_item {
+    padding: 2vw;
+}
+
+
+/* +++tablet+++ */
+@media (min-width: 426px) {
+    #portfolio {
+        display: flex;
+        flex-flow: nowrap row;
+    } 
+
+    .column1 {
+        flex: 1;
+    }
+
+    .column2 {
+        flex: 1;
+    }
+}
+
+/* +++Desktop+++ */
+@media (min-width: 769px) {
+    
+    #portfolio {
+        display: flex;
+        flex-flow: nowrap row;
+    } 
+
+    .column1 {
+        flex: 1;
+    }
+
+    .column2 {
+        flex: 1;
+    }
+
+    .portfolio_open {
+        font-size: 2.4vw;
+    }
+
+}
+
+/*============================================================== Contact me: ==============================================================*/
+
+#contact_me {
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: center;
+}
+
+/* form css: */
+
+form {
+    /* spacing */
+        /* background-color: blue; */
+
+        width: max-content;
+        height: fit-content;
+
+    /* flex child:  */
+    flex: 50%;
+
+    /* flex parent: */
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        column-gap: 2px;    
+}
+
+/* section specific */
+
+#f_name {
+    /* name */
+    display: flex;
+    column-gap: 3px;
+    align-content: center;
+}
+
+#f_email {
+    /* email */
+    display: flex;
+    column-gap: 3px;
+    align-content: center;
+}
+
+#f_about {
+    /* about */
+    display: flex;
+    column-gap: 3px;
+    align-content: center;
+}
+
+label {
+    /* flex */
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    align-items: flex-end;
+    background: #E0E0CE;
+}
+
+.input {
+    flex: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    background: blue;
+}
+
+/* links css: */
+
+#contact_me #links {
+    flex: 50%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+input:invalid {
+    border: 2x dotted red;
+}
+
+input::placeholder {
+    color: orangered
+}
+
+textarea::placeholder {
+    color: orangered
+}
+
+/* +++tablet+++ */
+@media (min-width: 426px) {
+    #contact_me {
+        display: flex;
+        flex-flow: nowrap column;
+        justify-content: center;
+        font-size: 2vw;
+    }
+}
+
+/* +++Desktop+++ */
+@media (min-width: 769px) {
+   
+    #contact_me {
+        display: flex;
+        flex-flow: nowrap row;
+        justify-content: center;
+        font-size: 2.4vw;
+    }
+
+}
+
+/* subheading: */
+h2 {
+    display: flex;
+    justify-content: center;
+
+}
+/*============================================================== Footer: ==============================================================*/
+
+.btt {
+    display: none;
+    position:fixed;
+    bottom: 1%;
+    right: 3%;
+    background-color: #333333;
+}
+
+/* +++tablet+++ */
+@media (min-width: 426px) {
+    .btt {
+        display: block;
+    }
+}
+
+/* +++Desktop+++ */
+@media (min-width: 769px) {
+    .btt {
+        display: block;
+    }
+}

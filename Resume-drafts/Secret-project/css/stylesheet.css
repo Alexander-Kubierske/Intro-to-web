@@ -16,8 +16,8 @@ body{
     color: #E0E0CE;
 }
 
-/* this is our display for Desktop */
-@media (min-width: 1000px) {
+/* ===================================================================this is our display for Desktop============================================================================= */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -48,7 +48,7 @@ body{
 .links a {
     padding: 10px;
 }
-}
+
 
 @media (max-width: 1000px) {
     .navbar {
@@ -57,7 +57,8 @@ body{
     
 }
 
-/* this is our display for mobile and is the standard */
+/*==============================================================this is our display for mobile and is the standard================================================================*/
+
 @media (min-width: 600px) {
     .mobile-nav {
         display: none;
@@ -67,8 +68,8 @@ body{
 .mobile-nav {
     
     display: flex;
-    
-    position: sticky;
+
+    position: absolute;
     right: 0;
 
     height: 60px;
@@ -78,4 +79,233 @@ body{
     color: #34C242;
   }
 
- 
+/*============================================================== Main: ==============================================================*/
+
+main {
+    
+}
+
+h3 {
+    color: aqua;
+    font-size: larger;
+}
+
+h4 {
+    color: #34C242;
+    font-size: medium;
+}
+/*============================================================== Bio: ==============================================================*/
+
+#bio {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    /* background: ; */
+}
+
+#bio_pic {
+    padding: 5px;
+}
+
+#bio_info {
+    align-items: center;
+    padding: 5px;
+
+    color: #E0E0CE;
+}
+
+/* @media screen {
+    
+}
+  */
+
+/*============================================================== Education: ==============================================================*/
+
+#education {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+
+    /* background: ; */
+
+}
+
+.ed_cell {
+    /* background: #ffffff; */
+}
+
+
+.school p {
+    padding-left: 5%;
+    font-size: small;
+}
+
+.school_info {
+    padding-left: 10%;
+    color: #E0E0CE;
+}
+
+/*============================================================== Experience: ==============================================================*/
+
+#experience {
+    background: #E0E0CE;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* needs to be in @media. displays only during desktop/tablet */
+#job_line {
+    align-self: flex-start;
+}
+
+.job_dot {
+    align-self: flex-start;
+    /* position: absolute; not sure if this is what i need to make it bring to front*/
+}
+
+.job_date {
+    display: block;
+    font-size: small;
+}
+.job_description {
+
+    display: flex;
+    flex-flow: nowrap column;
+
+}
+
+.job_description p {
+    color: #E0E0CE;
+    font-size: medium;
+}
+
+/*============================================================== Portfolio: ==============================================================*/
+
+#portfolio {
+    display: flex;
+}
+
+.column1 {
+    align-self: flex-start;
+
+    flex: 50%;
+}
+
+.column2 {
+    align-self: flex-end;
+
+    background: #34C242;
+    flex: 50%;
+}
+
+.portfolio_open {
+    display: none;
+}
+
+.portfolio_item:hover .portfolio_open {
+    display: flex;
+    flex-flow: nowrap column;
+
+}
+
+input:invalid {
+    border: 2x dotted red;
+}
+
+input::placeholder {
+    color: orangered
+}
+
+textarea::placeholder {
+    color: orangered
+}
+
+/*============================================================== Contact me: ==============================================================*/
+
+#contact_me {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: center 
+}
+
+/* subheading: */
+h2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* form css: */
+
+form {
+    /* spacing */
+        background-color blue;
+            /* colour disabled use ':' to reenable */
+        width: max-content;
+        height: fit-content;
+
+    /* flex child:  */
+    flex: 50%;
+
+    /* flex parent: */
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        column-gap: 2px;    
+}
+
+/* section specific */
+
+#f_name {
+    /* name */
+    display: flex;
+    column-gap: 3px;
+    align-content: center;
+}
+
+#f_email {
+    /* email */
+    display: flex;
+    column-gap: 3px;
+    align-content: center;
+}
+
+#f_about {
+    /* about */
+    display: flex;
+    column-gap: 3px;
+    align-content: center;
+}
+
+label {
+    /* flex */
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    align-items: flex-end;
+    background: #E0E0CE;
+}
+
+.input {
+    flex: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    background: blue;
+}
+
+/* links css: */
+
+#contact_me #links {
+    flex: 50%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+/*============================================================== Footer: ==============================================================*/
+
+.btt {
+    position:fixed;
+    bottom: 1%;
+    right: 3%;
+}
