@@ -6,269 +6,228 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alexander Kubierske Resume</title>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2">
   </head>
   <body>
     
-    <!--============================================================== Standard navigation bar: ==============================================================-->
-    <nav class="navbar">
+<!--============================================================== Navigation: ==============================================================-->
+    <nav>
+      <section id="nav">
+        <a href="#bio">
+          <span>01</span>
+          Top
+        </a>
+        <a href="#education">
+          <span>02</span>
+          Education
+        </a>
+        <a href="#experience">
+          <span>03</span>
+          Experience
+        </a>
+        <a href="#portfolio">
+          <span>04</span>
+          Portfolio
+        </a>
+        <a href="#contact">
+          <span>05</span>
+          Contact Me
+        </a>
+      </section>
 
-      <Div> <!-- handles the logo in our navbar could also be name -->
-        <img class="logo" src="images/hsog.png" alt="logo">
-      </Div>
+      <!-- mobile -->
+      <!-- <section class="mobile_nav">
+        <button>
+          <a href="#bio">
+            <span>01</span>
+            Top
+          </a>
+          <a href="#education">
+            <span>02</span>
+            Education
+          </a>
+          <a href="#experience">
+            <span>03</span>
+            Experience
+          </a>
+          <a href="#portfolio">
+            <span>04</span>
+            Portfolio
+          </a>
+          <a href="#contact">
+            <span>05</span>
+            Contact Me
+          </a>
+        </button>
+      </section>-->
 
-      <ol class="links">
-        <a href="#bio">Bio</a>
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact Me</a>
-      <ol>
-
-          </nav>
-
-<!--============================================================== mobile navigation bar: ==============================================================-->
-    <nav class="mobile-nav">
-
-      <Button class="nav-but">
-
-        <div class="nav-but-con">
-            <a href="#bio">Bio</a>
-            <a href="#education">Education</a>
-            <a href="#experience">Experience</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact Me</a>
-        </div>
-
-      </Button>
-
-    </nav>
+    </nav> 
 
 <!--============================================================== Main: ==============================================================-->
 
-  <Main>
+<Main>
 
 <!--============================================================== bio: ==============================================================-->
-
-    <section id="bio">
-
-      <Div id="bio_pic">
-        <picture>
-          <source media="(max-width: 450px)" width="210px" srcset="images/pfSmall.jpg"> <!-- for mobile -->
-          <source media="(max-width: 1000px)" width="360px" srcset="images/pfMedium.jpg"> <!-- for tablet -->
-          <img src="images/pfLarge.jpg" width="480px" height="auto" alt="Profile Photo"> <!-- for Desktop -->
-        </picture>
-      </Div>
-
-      <div id="bio_info">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-
-    </section>
-
+  <section id="bio">
+      <h1>Alexander Kubierske</h1>
+      <h2>Factory Manger</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+  </section>
 <!--============================================================== Education: ==============================================================-->
-
     <section id="education">
-
-      <div class="ed_cell">
-        <Div class="school">
-          <h3>St Albans College</h3>
-          <h4>High School Diploma</h4>
-          <P>Pretoria <br> 2012-2016</P>
-        </Div>
-        <div class="school_info">this is text about the school</div>
-      </div>
-
-      <div class="ed_cell">
-        <Div class="school">
-          <h3>Quest Africa</h3>
-          <h4>Gap Year Program</h4>
-          <P>Esigodini, Zimbabwe <br> 2019</P>
-        </Div>
-        <div class="school_info">
-          this is text about the school
-        </div>
-      </div>
-  
-      <div class="ed_cell">
-        <Div class="school">
-          <h3>The University of Pretoria</h3>
-          <h4>Bachelor Of Arts in Languages</h4>
-          <P>Pretoria <br> 2018-2020</P>
-        </Div>
-        <div class="school_info">
-          this is text about the school
-        </div>
-      </div>
-
-      <div class="ed_cell">
-        <Div class="school">
-          <h3>CodeSpace</h3>
-          <h4>Diploma in Coding</h4>
-          <P>Pretoria <br> 2023-2024</P>
-        </Div>
-        <div class="school_info">
-          this is text about the school
-        </div>
-      </div>
-
-    </section>
-
-<!--============================================================== Experience: ==============================================================-->
-
-    <section id="experience">
-
-      <div id="job_line">
-
-      </div>
-
-      <div id="job_1">
-
-        <div class="job_dot">
-
-        </div>
-        <div class="job_date">
-
-        </div>
-        <div class="job_description">
-          <h3>Where</h3>
-          <h4>position</h4>
-          <P>description</P>
-
-        </div>
-
-      </div>
-
-      <div id="job_2">4
-
-        <div class="job_dot">
-
-        </div>
-        <div class="job_date">
-
-        </div>
-        <div class="job_description">
-          <h3>Where</h3>
-          <h4>position</h4>
-          <P>description</P>
-        </div>
-
-      </div>
-
-      <div id="job_3">
-
-        <div class="job_dot">
-
-        </div>
-        <div class="job_date">
-
-        </div>
-        <div class="job_description">
-          <h3>Where</h3>
-          <h4>position</h4>
-          <P>description</P>
-        </div>
-
-      </div>
-
-    </section>
-
-<!--============================================================== Portfolio: ==============================================================-->
-
-    <section id="portfolio">
-
-      <div class="column1">
-
-        <div class="portfolio_item">
-          <span>Videography</span>
-            <div class="portfolio_open">
-              <P>Here is a link to my youtube channel and the videos I have made so far. 
-                My most notable videos are under the link titled EDH Wreck. 
-                Here I have filmed, scripted, VO'd, edited and published videos focusing on short form content that records complex gameplay actions.</P>
-              <ol>
-                <a href="https://www.youtube.com/channel/UC5uESDZNqtwvcjkAdeonKog">My channel</a>
-                <a href="https://youtube.com/playlist?list=PLWo99mWKba2C_ES4-BvnLXQrsf2x4W3gg">EDH Wreck season 1</a>
-                <a href="https://youtube.com/playlist?list=PLWo99mWKba2AXPLRRp0RN3ZswJKRIcCyj">EDH Wreck season 2</a>
-              </ol>
-            </div>
-
-        </div>
-
-      </div>
-
-      <div class="column2">
-
-        <div class="portfolio_item">
-          <span>Coding</span>
-            <div class="portfolio_open">
-              <P>Here is a link to my Github page which contains samples of all the coding work I have done so far:</P>
-              <ol>
-                <a href="https://github.com/Alexander-Kubierske?tab=repositories">My channel</a>
-              </ol>
-            </div>
-
-      </div>
-
-    </section>
-
-<!--============================================================== Contact me: ==============================================================-->
-      <h2>Where to find me</h2>
-    
-    <section id="contact_me">
-
-      <form action="https://formsubmit.co/6463e509bb925f2418dac6eef7e13b19" method="POST">
-
-        <div id="f_name">
-            <label for="name">name:</label>
-                <input type="text" name="Name" id="name" placeholder="required" required patter="[A-Za-z]" class="input">
-                    <!-- for some reason this pattern does not accept any text regardless of no. or alphabetical -->
-        </div>
-
-        <div id="f_email">
-            <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required placeholder="required" class="input">
-        </div>
-
-        <div id="f_about">
-            <label for="about">About:</label>
-                <textarea name="about" id="about" cols="40" rows="5" class="input" placeholder="Hi I am..."></textarea>
+      <h1>Education</h1>
+        <div>
+          <h2 id="span2">St Albans College</h2>
+          <h4><span class="h3">Higher Education</span> 2012-2016</h4>
+          <p id="span2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
 
         <div>
-            <button type="submit">submit</button>
+          <h2>The University of Pretoria</h2>
+          <h4><span class="h3">BaLanguages</span> 2018-2020</h4>
+          <h4></h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        
+        <div>
+          <h2>CodeSpace</h2>
+          <h4><span class="h3">Diploma</span> 2023-2024</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
 
-        <!-- <input type="hidden" name="_next" value=""> this needs to be added once the page is hosted -->
-        <input type="text" name="_honey" style="display:none">
-
-      </form>
-
-      <div id="links">
-        <ol>
-          <div>
-            <label for="instagram">Kubbies_</label>
-            <a id="instagram" href="https://www.instagram.com/kubbies_/">
-              <img src="" alt="Instagram">
-            </a>
-          </div>
-
-          <div>
-            <label for="instagram">Kubbies_</label>
-            <a id="instagram" href="https://www.instagram.com/kubbies_/">
-              <img src="" alt="Instagram">
-            </a>
-          </div>
-
     </section>
+<!--============================================================== Experience: ==============================================================-->
+    <section id="experience">
+      <h1>Experience</h1>
+      <div>
+        <h4>2021-2023 </h4>
+        <h2>The Solar Shop</h2>
+        <p>
+          Factory Manager
+        </p>
+      </div>
+    </section>
+
+<!--============================================================== Portfolio: ==============================================================-->
+  <section id="portfolio">
+    <div class="column1">
+
+      <div class="portfolio_item">
+        <h2>Videography</h2>
+          <div class="portfolio_open">
+            <P>Here is a link to my youtube channel and the videos I have made so far. 
+              My most notable videos are under the link titled EDH Wreck. 
+              Here I have filmed, scripted, VO'd, edited and published videos focusing on short form content that records complex gameplay actions.</P>
+            <ol>
+              <a href="https://www.youtube.com/channel/UC5uESDZNqtwvcjkAdeonKog">My channel</a>
+              <a href="https://youtube.com/playlist?list=PLWo99mWKba2C_ES4-BvnLXQrsf2x4W3gg">EDH Wreck season 1</a>
+              <a href="https://youtube.com/playlist?list=PLWo99mWKba2AXPLRRp0RN3ZswJKRIcCyj">EDH Wreck season 2</a>
+            </ol>
+          </div>
+
+      </div>
+
+    </div>
+
+    <div class="column2">
+
+      <div class="portfolio_item">
+        <h2>Coding</h2>
+          <div class="portfolio_open">
+            <P>Here is a link to my Github page which contains samples of all the coding work I have done so far:</P>
+            <ol>
+              <a href="https://github.com/Alexander-Kubierske?tab=repositories">My channel</a>
+            </ol>
+          </div>
+    </div>
+
+  </section>
+  
 
   </Main>
 
+  <!--============================================================== Contact me: ==============================================================-->
+
   <footer>
 
+  <section id="form">
+
+    <form action="https://formsubmit.co/6463e509bb925f2418dac6eef7e13b19" method="POST">
+        <H1>Get in Touch</H1>
+
+      <div id="f_name">
+          <label for="name">Name:</label>
+              <input type="text" name="Name" id="name" required patter="[A-Za-z]" class="input">
+                  <!-- for some reason this pattern does not accept any text regardless of no. or alphabetical -->
+      </div>
+
+      <div id="f_email">
+          <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required class="input">
+      </div>
+
+      <div id="f_about">
+          <label for="about">About:</label>
+              <textarea name="about" id="about" cols="40" rows="5" class="input"></textarea>
+      </div>
+
+      <div>
+          <button type="submit">submit</button>
+      </div>
+      
+      <input type="text" name="_honey" style="display:none">
+
+    </form>
+
+  </section>
+
+  <Section id="links_ext">
+    <div>
+      <h1>Where to find me</h1>
+      <ol>
+        <div>
+          <a id="twitter" href="https://twitter.com/Kubbies_">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            Kubbies_
+          </a>
+        </div>
+
+        <div>
+          <a href="https://www.instagram.com/kubbies_/">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            kubbies_
+          </a>
+        </div>
+    </Section>
+
+
     <nav class="btt">
-      <a href="#top">back to top</a>
-  </nav>
+      <a href="#top">top </a>
+    </nav>
 
   </footer>
 
   </body>
+
 </html>
